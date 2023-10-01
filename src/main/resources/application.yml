@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: LoginRegister
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/LoginRegister?useSSL=false
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update # Hibernate ddl auto (create, create-drop, validate, update)
+
+logging:
+  level:
+    org.hibernate.type: TRACE
+    org.hibernate.SQL: DEBUG
